@@ -23,6 +23,7 @@ class Addition{
 
     public static int add(){
         Object ma_classe = new Hello("Bonjour");
+        System.out.println(ma_classe instanceof Hello);
         System.out.println("Constructor spell! "+ ma_classe);
         int[] numbers = {3, 9, 5, -5};
         // System.out.println(numbers[0]);
